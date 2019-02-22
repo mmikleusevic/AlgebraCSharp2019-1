@@ -20,6 +20,7 @@ namespace zbroj_razlika
             Console.WriteLine("Kvocijent je: {0}", (float)a / (float)b);
 
             Console.ReadLine();
+            //komentar
         }
     }
 }
