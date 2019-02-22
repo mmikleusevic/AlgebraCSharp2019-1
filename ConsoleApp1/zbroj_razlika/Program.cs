@@ -21,6 +21,7 @@ namespace zbroj_razlika
 
             Console.ReadLine();
             //komentar
+            //drugi komentar
         }
     }
 }
