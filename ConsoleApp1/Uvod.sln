@@ -17,7 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispis ledište, vrelište",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1_Varijable", "5.1_Varijable", "{7D517D35-39BC-42A6-BE68-3BC32B26E3B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zbroj_razlika", "zbroj_razlika\zbroj_razlika.csproj", "{EB8F253B-2171-4A6B-A41F-D67B7B9544EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zbroj_razlika", "zbroj_razlika\zbroj_razlika.csproj", "{EB8F253B-2171-4A6B-A41F-D67B7B9544EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2_Uvjetno_grananje", "5.2_Uvjetno_grananje", "{BE05B1F2-76AF-470A-95E1-218F69376FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naredba if", "Naredba if\Naredba if.csproj", "{4636BD10-48C4-4467-A8E2-663356A29600}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{EB8F253B-2171-4A6B-A41F-D67B7B9544EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB8F253B-2171-4A6B-A41F-D67B7B9544EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB8F253B-2171-4A6B-A41F-D67B7B9544EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4636BD10-48C4-4467-A8E2-663356A29600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4636BD10-48C4-4467-A8E2-663356A29600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4636BD10-48C4-4467-A8E2-663356A29600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4636BD10-48C4-4467-A8E2-663356A29600}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +66,6 @@ Global
 		{472D7DA6-E613-420C-8815-EE5375165D9E} = {0BBD29BA-2391-4E97-B14E-8998026F465E}
 		{7EAE456C-50E2-48FB-ABE1-37BFC9728865} = {0BBD29BA-2391-4E97-B14E-8998026F465E}
 		{EB8F253B-2171-4A6B-A41F-D67B7B9544EE} = {7D517D35-39BC-42A6-BE68-3BC32B26E3B1}
+		{4636BD10-48C4-4467-A8E2-663356A29600} = {BE05B1F2-76AF-470A-95E1-218F69376FC7}
 	EndGlobalSection
 EndGlobal
