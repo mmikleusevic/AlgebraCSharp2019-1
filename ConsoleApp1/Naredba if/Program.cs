@@ -28,7 +28,10 @@ namespace Naredba_if
             {
                 Console.WriteLine("Opis greške:" + ex.Message);
             }
-            Console.ReadKey();
+            finally
+            {
+                Console.ReadKey();
             }
         }
     }
+}
