@@ -7,7 +7,7 @@
     <ProjectGuid>{D279530A-3BB1-4452-BB54-3716954179BE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>zadatak_5._2._8</RootNamespace>
-    <AssemblyName>zadatak_5._2._8</AssemblyName>
+    <AssemblyName>zadatak_5.2.8</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
