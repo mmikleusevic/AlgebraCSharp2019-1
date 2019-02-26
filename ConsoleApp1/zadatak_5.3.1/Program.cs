@@ -4,22 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace petlja_while
+namespace zadatak_5._3._1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string ime = "";
-            while (ime != "kraj")
+            for (int i = 2; i <= 20; i++)
             {
-                ime = Console.ReadLine();
-
-                if(ime != "kraj")
+                if(i % 2 == 1)
                 {
-                    Console.WriteLine("Dobar dan,{0}!", ime);
+                    Console.Write("{0} ", i);
                 }
             }
+            Console.ReadKey();
         }
     }
 }
