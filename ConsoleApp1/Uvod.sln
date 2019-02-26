@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "petlja_while", "petlja_whil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadatak_5.3.1", "zadatak_5.3.1\zadatak_5.3.1.csproj", "{17F24ABA-13C0-4D8E-A25A-26280E79CB5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadatak_5.3.3", "zadatak_5.3.3\zadatak_5.3.3.csproj", "{6DBA488D-EAEC-4C70-A964-5C887ECB5E2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,10 @@ Global
 		{17F24ABA-13C0-4D8E-A25A-26280E79CB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F24ABA-13C0-4D8E-A25A-26280E79CB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F24ABA-13C0-4D8E-A25A-26280E79CB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBA488D-EAEC-4C70-A964-5C887ECB5E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBA488D-EAEC-4C70-A964-5C887ECB5E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBA488D-EAEC-4C70-A964-5C887ECB5E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBA488D-EAEC-4C70-A964-5C887ECB5E2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,5 +194,6 @@ Global
 		{B36DFBD2-6195-4593-B849-1845A4317454} = {344CB2F4-4CC3-4C3A-B21C-B5DDFC35D348}
 		{342E4CCE-B36D-4E85-93C7-A2DA55A4F14E} = {344CB2F4-4CC3-4C3A-B21C-B5DDFC35D348}
 		{17F24ABA-13C0-4D8E-A25A-26280E79CB5B} = {344CB2F4-4CC3-4C3A-B21C-B5DDFC35D348}
+		{6DBA488D-EAEC-4C70-A964-5C887ECB5E2C} = {344CB2F4-4CC3-4C3A-B21C-B5DDFC35D348}
 	EndGlobalSection
 EndGlobal
