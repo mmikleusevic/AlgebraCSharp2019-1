@@ -11,23 +11,30 @@ namespace zadatak_5._2._9
         static void Main(string[] args)
         {
             Console.Write("Unesite broj: ");
-            int broj = int.Parse(Console.ReadLine());
-
-            if(broj % 2 == 0)
+            try
             {
-                Console.WriteLine("Broj je paran.");
+                int broj = int.Parse(Console.ReadLine());
+ 
+                if (broj % 2 == 0)
+                {
+                    Console.WriteLine("Broj je paran.");
+                }
+                else
+                {
+                    Console.WriteLine("Broj je neparan!");
+                }
+                if (broj % 3 == 0)
+                {
+                    Console.WriteLine("Broj je djeljiv s 3.");
+                }
+                else
+                {
+                    Console.WriteLine("Ostatak pri dijeljenju s 3 je {0}.", broj % 3);
+                }
             }
-            else
+            catch (FormatException e)
             {
-                Console.WriteLine("Broj je neparan!");
-            }
-            if(broj % 3 == 0)
-            {
-                Console.WriteLine("Broj je djeljiv s 3.");
-            }
-            else
-            {
-                Console.WriteLine("Ostatak pri dijeljenju s 3 je {0}.", broj % 3);
+                Console.WriteLine("Greška! " + e.ToString());
             }
             Console.ReadKey();
         }

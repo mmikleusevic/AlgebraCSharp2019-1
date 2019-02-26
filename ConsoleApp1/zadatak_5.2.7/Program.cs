@@ -11,15 +11,23 @@ namespace zadatak_5._2._7
         static void Main(string[] args)
         {
             Console.Write("Unesite cijeli broj: ");
-            int a = int.Parse(Console.ReadLine());
+            int a = 0;
+            try
+            {
+                a = int.Parse(Console.ReadLine());
 
-            if(a % 4 == 0 && !(a < 100))
-            {
-                Console.WriteLine("Broj je dobar.");
+                if (a % 4 == 0 && !(a < 100))
+                {
+                    Console.WriteLine("Broj je dobar.");
+                }
+                else
+                {
+                    Console.WriteLine("Broj NIJE dobar!");
+                }
             }
-            else
+            catch (FormatException e)
             {
-                Console.WriteLine("Broj NIJE dobar!");
+                Console.WriteLine("Provjeri da li je unešen broj? " + e.ToString());
             }
             Console.ReadKey();
         }
