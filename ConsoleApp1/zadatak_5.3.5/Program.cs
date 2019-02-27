@@ -18,9 +18,10 @@ namespace zadatak_5._3._5
                 int n = int.Parse(Console.ReadLine());
                 if (n < a)
                 {
-                    throw new Exception("Nepravilan intrval");
+                    throw new Exception("Nepravilan interval");
                 }
-                for (int i = a; i < n; i++)
+                Console.WriteLine("Svi brojevi dijeljivi sa 3");
+                for (int i = a; i <= n; i++)
                 {
                     if (i % 3 == 0)
                     {
