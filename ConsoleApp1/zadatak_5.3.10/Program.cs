@@ -11,21 +11,33 @@ namespace zadatak_5._3._10
         static void Main(string[] args)
         {
             int zbrojdjeljenja = 0;
+            int a = 0;
             Console.WriteLine("Unesite broj");
-            int a = int.Parse(Console.ReadLine());
-            for (int i = a; i > 0; i--)
+            try
             {
-                if(a % i == 0 && a != i)
+                a = int.Parse(Console.ReadLine());
+                for (int i = a; i > 0; i--)
                 {
-                    Console.Write("{0} ", i);
-                    zbrojdjeljenja += i;
+                    if (a % i == 0 && a != i)
+                    {
+                        Console.Write("{0} ", i);
+                        zbrojdjeljenja += i;
+                    }
+                }
+                if (a == zbrojdjeljenja)
+                {
+                    Console.WriteLine("\nUnešeni broj je savršen");
                 }
             }
-            if(a == zbrojdjeljenja)
+            catch (FormatException ex)
             {
-                Console.WriteLine("\nUneseni broj je savršen");
+                Console.WriteLine("Nije unešen broj " + ex.ToString());
             }
-            Console.ReadKey();
+            finally
+            {
+                Console.ReadKey();
+            }
+
         }
     }
 }

@@ -21,7 +21,7 @@ namespace zadatak_5._3._22
             float a = 0, b = 0;
             string operacija = "";
             string odg = "D";
-            while (odg != "N")
+            while (odg != "N" && odg == "D")
             {
                 try
                 {
