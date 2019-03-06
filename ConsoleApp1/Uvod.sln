@@ -141,10 +141,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.10_ukupna_cijena", "7.2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.11_parni_neparni", "7.2.11_parni_neparni\7.2.11_parni_neparni.csproj", "{CA88FF38-977F-49F4-BE82-1DDD08F07E52}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.1_Objekti", "8.1_Objekti", "{6AD8269A-66B4-487F-97FE-DF03319BE38E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1.2_objekt", "8.1.2_objekt\8.1.2_objekt.csproj", "{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -907,18 +903,6 @@ Global
 		{CA88FF38-977F-49F4-BE82-1DDD08F07E52}.Release|iPhone.Build.0 = Release|Any CPU
 		{CA88FF38-977F-49F4-BE82-1DDD08F07E52}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{CA88FF38-977F-49F4-BE82-1DDD08F07E52}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Release|iPhone.Build.0 = Release|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -985,7 +969,6 @@ Global
 		{EBDAED67-8DB4-4F7B-A877-B41D234631D3} = {6E6D906E-3B7F-4921-B281-7863AB565088}
 		{64229252-DA62-4699-B999-5E1A43692EDA} = {6E6D906E-3B7F-4921-B281-7863AB565088}
 		{CA88FF38-977F-49F4-BE82-1DDD08F07E52} = {6E6D906E-3B7F-4921-B281-7863AB565088}
-		{05F372F8-0A4C-4B7B-AC97-35C52D9A00D5} = {6AD8269A-66B4-487F-97FE-DF03319BE38E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E60253E7-7B9A-41C2-A0BF-E355FFFFC2A3}
