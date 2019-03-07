@@ -10,13 +10,35 @@ namespace _8._1._2_objekt
     {
         static void Main(string[] args)
         {
-            //instanciraj novi objekt klase Ucenik
+
+            Console.WriteLine("Što je to nastavnik?");
+            Console.WriteLine(Nastavnik.Opis());
+            Console.WriteLine("Koji je koeficijent nastavnika?");
+            Console.WriteLine(Nastavnik.Koeficijent());
+
+            Nastavnik na1 = new Nastavnik();
+            // ne mozemo postaviti READ ONLY property
+            // na1.Ime = "Claudije";
+
+            Console.WriteLine("Njegovo ime je " + na1.Ime);
+
+            // OIB možemo postaviti 
+            na1.Oib = 123345;
+
+            // Ne dozvoljava čitanje oiba.
+            // Console.WriteLine("Njegov oib je " + na1.Oib);
+
+            // Ispiši dio oiba
+            Console.WriteLine("Njegov OIB je " + na1.PartialOib + "*********");
+
+            // instanciraj novi objekt klase Ucenik
             Ucenik uc1 = new Ucenik();
+            
 
 
             //inicijalizacija objekta
             Console.WriteLine("Unesi ime učenika");
-            uc1.ime = Console.ReadLine();
+            uc1.Ime = Console.ReadLine();
 
             Console.WriteLine("Unesi prezime učenika");
             uc1.prezime = Console.ReadLine();
@@ -34,7 +56,7 @@ namespace _8._1._2_objekt
 
             //instanciraj novi objekt klase Ucenik
             Ucenik uc2 = new Ucenik("Perica");
-            Console.WriteLine("Ime učenika je " + uc1.ime + " i " + uc2.ime);
+            Console.WriteLine("Ime učenika je " + uc1.Ime + " i " + uc2.Ime);
 
             List<Ucenik> ucenici = new List<Ucenik> { uc1, uc2 };
             ucenici.Add(uc1);

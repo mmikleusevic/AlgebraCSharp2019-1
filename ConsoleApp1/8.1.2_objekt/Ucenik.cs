@@ -5,11 +5,17 @@ namespace _8._1._2_objekt
     internal class Ucenik
     {
         public DateTime datumNastanka;
-        public string ime = "";
+        private string ime = "";
         public string prezime = "";
         public int ocjenaIzMatematike = 0;
         public int ocjenaIzEngleskog = 0;
         public int ocjenaIzBiologije = 0;
+
+        public string Ime
+        {
+            get => ime;
+            set => ime = value;
+        }
 
         public Ucenik()
         {
@@ -18,11 +24,11 @@ namespace _8._1._2_objekt
 
         public Ucenik(string v)
         {
-            this.ime = v;
+            this.Ime = v;
         }
         public Ucenik(string v,string prez)
         {
-            this.ime = v;
+            this.Ime = v;
             this.prezime = prez;
         }
 
@@ -34,7 +40,7 @@ namespace _8._1._2_objekt
         }
         public override string ToString()
         {
-            return "Moje ime je " + this.ime + " a moj prosjek je: " + this.Prosjek();
+            return "Moje ime je " + this.Ime + " a moj prosjek je: " + this.Prosjek();
         }
     }
 }
