@@ -31,20 +31,15 @@ namespace _8._1._3_zaposlenik
             listaZaposlenika.ForEach(Zaposlenik => UnesiVrijednost(Zaposlenik));
             listaZaposlenika.ForEach(Zaposlenik => IspisiZaposlenike(Zaposlenik));
 
-            // Unesi pravilno broj bodova
-
-            // Ispis
-            Console.WriteLine("Zaposlenik: " + Z1.Ime + " " + Z1.Prezime);
-            Console.WriteLine("Neto: " + Z1.NetoIzracunPlace());
-            Console.WriteLine("Porez: " + Z1.Porez);
-            Console.WriteLine("Bruto: " + Z1.BrutoIzracunPlace());
-
             Console.ReadKey();
         }
 
         private static void IspisiZaposlenike(Zaposlenik zaposlenik)
         {
-            
+            Console.WriteLine("Zaposlenik: " + zaposlenik.Ime + " " + zaposlenik.Prezime);
+            Console.WriteLine("Neto: " + zaposlenik.NetoIzracunPlace());
+            Console.WriteLine("Porez: " + zaposlenik.Porez);
+            Console.WriteLine("Bruto: " + zaposlenik.BrutoIzracunPlace());
         }
 
         private static void UnesiVrijednost(Zaposlenik zaposlenik)
