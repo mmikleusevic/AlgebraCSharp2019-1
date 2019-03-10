@@ -25,8 +25,6 @@ namespace _8._1._2_objekt
             // OIB možemo postaviti 
             na1.Oib = 123345;
 
-            Nastavnik.k
-
             // Ne dozvoljava čitanje oiba.
             // Console.WriteLine("Njegov oib je " + na1.Oib);
 
