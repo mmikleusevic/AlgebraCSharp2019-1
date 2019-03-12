@@ -44,7 +44,8 @@ namespace _8._3._1_primjer
         }
         public override string ToString()
         {
-            return "Moje ime je " + this.Ime + " a moj prosjek je: " + this.Prosjek();
+            return "Moje ime je " + this.Ime + " a moj prosjek je: " + this.Prosjek()
+                +" ja sam tipa: "+this.GetType();
         }
     }
 }
