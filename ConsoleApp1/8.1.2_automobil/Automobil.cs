@@ -1,6 +1,6 @@
 ﻿namespace _8._1._2_automobil
 {
-    internal class Automobil
+    public class Automobil
     {
         public string markaAutomobila = "";
         public double ks = 0;
